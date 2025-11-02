@@ -28,43 +28,21 @@ return (
 
 </head>
 
-<body style= margin: 0, fontFamily: 'system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif', color: '#0f172a' >
+<body>
 
-<header style= borderBottom: '1px solid #e5e7eb' >
+<header>
 
-<div style= maxWidth: 1024, margin: '0 auto', padding: '12px 16px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' >
+<nav>
 
-<a href="/" style= display: 'flex', alignItems: 'center', gap: 8, textDecoration: 'none', color: 'inherit' >
-
-<img src="/assets/logo-node-gradient.svg" alt="qneolabs" height={28} />
-
-<strong>qneolabs</strong>
-
-</a>
-
-<nav style= display: 'flex', gap: 16 >
-
-<a href="/services">Services</a>
-
-<a href="/contact" style= padding: '8px 12px', borderRadius: 8, background: '#0A84FF', color: 'white', textDecoration: 'none' >Start a project</a>
+<a href="/">qneolabs</a> · <a href="/services">Services</a> · <a href="/contact">Contact</a>
 
 </nav>
 
-</div>
-
 </header>
 
-<main style= maxWidth: 1024, margin: '0 auto', padding: '32px 16px' >{children}</main>
+<main>{children}</main>
 
-<footer style= borderTop: '1px solid #e5e7eb' >
-
-<div style= maxWidth: 1024, margin: '0 auto', padding: '24px 16px', fontSize: 14, color: '#475569' >
-
-© {new Date().getFullYear()} qneolabs • Built for performance
-
-</div>
-
-</footer>
+<footer>© {new Date().getFullYear()} qneolabs</footer>
 
 </body>
 
