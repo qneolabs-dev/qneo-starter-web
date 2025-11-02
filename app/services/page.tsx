@@ -2,11 +2,11 @@ export default function Services() {
 
 return (
 
-<section style= display: 'grid', gap: 12 >
+<section style= display: 'grid', gap: 16 >
 
-<h1 style= fontSize: 24, margin: 0 >Services</h1>
+<h1 style= fontSize: 28, margin: 0 >Services</h1>
 
-<ul style= color: '#475569', paddingLeft: 18 >
+<ul style= display: 'grid', gap: 6, color: '#334155', paddingLeft: 18 >
 
 <li>Design and build with Next.js + TypeScript</li>
 
