@@ -2,13 +2,11 @@ export default function Home() {
 
 return (
 
-<section style= display: 'grid', gap: 16 >
+<section style= display: 'grid', gap: 16, maxWidth: 720 >
 
-<div style= display: 'grid', gap: 12 >
+<h1 style= margin: 0, fontSize: 32 >Modern sites. Measurable results.</h1>
 
-<h1 style= fontSize: 40, lineHeight: 1.1, margin: 0 >Modern sites. Measurable results.</h1>
-
-<p style= fontSize: 18, margin: 0, color: '#334155' >
+<p style= margin: 0 >
 
 qneolabs builds fast, SEO‑ready web systems with Next.js + TypeScript. Core Web Vitals first.
 
@@ -16,19 +14,25 @@ qneolabs builds fast, SEO‑ready web systems with Next.js + TypeScript. Core We
 
 <div style= display: 'flex', gap: 12, flexWrap: 'wrap' >
 
-<a href="/contact" style= padding: '10px 14px', borderRadius: 8, background: '#0A84FF', color: 'white', textDecoration: 'none' >Start a project</a>
+<a href="/contact" style= padding: '10px 14px', background: '#0A84FF', borderRadius: 8, color: '#fff', textDecoration: 'none' >
 
-<a href="/services" style= padding: '10px 14px', borderRadius: 8, border: '1px solid #e5e7eb', textDecoration: 'none' >Our services</a>
+Start a project
+
+</a>
+
+<a href="/services" style= padding: '10px 14px', border: '1px solid #0A84FF', borderRadius: 8, color: '#0A84FF', textDecoration: 'none' >
+
+Our services
+
+</a>
 
 </div>
 
-</div>
-
-<ul style= display: 'grid', gap: 8, color: '#334155', paddingLeft: 18 >
+<ul style= margin: 0, paddingLeft: 18 >
 
 <li>Lighthouse mobile ≥ 90</li>
 
-<li>LCP &lt; 2.5s • CLS &lt; 0.1 • INP &lt; 200ms</li>
+<li>LCP < 2.5s • CLS < 0.1 • INP < 200 ms</li>
 
 <li>Next.js + Vercel deploys with previews</li>
 
