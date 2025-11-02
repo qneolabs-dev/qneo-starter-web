@@ -2,23 +2,39 @@ export default function Contact() {
 
 return (
 
-<section style= display: 'grid', gap: 16 >
+<section style= display: 'grid', gap: 16, maxWidth: 720 >
 
-<h1 style= fontSize: 28, margin: 0 >Contact</h1>
+<h1 style= margin: 0, fontSize: 28 >Contact</h1>
 
-<p style= color: '#334155', margin: 0 >Tell us about your project and timeline. We’ll reply within one business day.</p>
+<p style= margin: 0 >
+
+Tell us about your project and timeline. We’ll reply within one business day.
+
+</p>
 
 <div style= display: 'flex', gap: 12, flexWrap: 'wrap' >
 
-<a href="[mailto:quantumneolabs@gmail.com](mailto:quantumneolabs@gmail.com)" style= padding: '10px 14px', borderRadius: 8, background: '#0A84FF', color: 'white', textDecoration: 'none' >Email us</a>
+<a href="[mailto:quantumneolabs@gmail.com](mailto:quantumneolabs@gmail.com)" style= padding: '10px 14px', border: '1px solid #0A84FF', borderRadius: 8, color: '#0A84FF', textDecoration: 'none' >
 
-<a href="tel:+66911691606" style= padding: '10px 14px', borderRadius: 8, border: '1px solid #e5e7eb', textDecoration: 'none' >Call</a>
+Email us
 
-<a href="https://wa.me/66911691606" target="_blank" rel="noopener" style= padding: '10px 14px', borderRadius: 8, border: '1px solid #e5e7eb', textDecoration: 'none' >WhatsApp</a>
+</a>
+
+<a href="tel:+66911691606" style= padding: '10px 14px', border: '1px solid #0A84FF', borderRadius: 8, color: '#0A84FF', textDecoration: 'none' >
+
+Call
+
+</a>
+
+<a href="https://wa.me/66911691606" target="_blank" rel="noopener" style= padding: '10px 14px', border: '1px solid #0A84FF', borderRadius: 8, color: '#0A84FF', textDecoration: 'none' >
+
+WhatsApp
+
+</a>
 
 </div>
 
-<ul style= display: 'grid', gap: 6, color: '#334155', paddingLeft: 18 >
+<ul style= margin: 0, paddingLeft: 18 >
 
 <li>Core Web Vitals first: fast, stable, responsive</li>
 
